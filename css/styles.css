@@ -571,8 +571,8 @@ header {
 }
 .logo__footer {
     display: flex;
-    gap: 156px;
     align-items: baseline;
+    justify-content: space-between;
 }
 .addres__footer {
 margin-top: -44px;
@@ -968,6 +968,7 @@ margin-top: -44px;
 .button-footer__text{
  display: flex;
     padding: 0px;
+    border: 0px;
     padding-left: 28px;
     width: 200px;
     height: 50px;
