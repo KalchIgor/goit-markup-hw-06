@@ -364,12 +364,12 @@
       <section class="section">
         <div class="container">
           <h2 class="title">Постійні клієнти</h2>
-          <ul class="link__foot">
-            <li class="link__li__foot">
-              <a href="#" class="li__client__a">
-                <svg class="logo4">
+          <ul class="menu-list">
+            <li class="menu-list__link">
+              <a href="#" class="menu-list__item">
+                <svg class="menu-list__svg">
                   <use
-                    class="div__svg"
+                    class="menu-list__icon"
                     href="./images/icons.svg#icon-logo1"
                     width="106"
                     height="60"
@@ -378,11 +378,11 @@
               </a>
             </li>
 
-            <li class="link__li__foot">
-              <a href="#" class="li__client__a">
-                <svg class="logo4">
+            <li class="menu-list__link">
+              <a href="#" class="menu-list__item">
+                <svg class="menu-list__svg">
                   <use
-                    class="div__svg"
+                    class="menu-list__icon"
                     href="./images/icons.svg#icon-logo2"
                     width="106"
                     height="60"
@@ -390,11 +390,11 @@
                 </svg>
               </a>
             </li>
-            <li class="link__li__foot">
-              <a href="#" class="li__client__a">
-                <svg class="logo4">
+            <li class="menu-list__link">
+              <a href="#" class="menu-list__item">
+                <svg class="menu-list__svg">
                   <use
-                    class="div__svg"
+                    class="menu-list__icon"
                     href="./images/icons.svg#icon-logo3"
                     width="106"
                     height="60"
@@ -402,11 +402,11 @@
                 </svg>
               </a>
             </li>
-            <li class="link__li__foot">
-              <a href="#" class="li__client__a">
-                <svg class="logo4">
+            <li class="menu-list__link">
+              <a href="#" class="menu-list__item">
+                <svg class="menu-list__svg">
                   <use
-                    class="div__svg"
+                    class="menu-list__icon"
                     href="./images/icons.svg#icon-logo4"
                     width="106"
                     height="60"
@@ -414,11 +414,11 @@
                 </svg>
               </a>
             </li>
-            <li class="link__li__foot">
-              <a href="#" class="li__client__a">
-                <svg class="logo4">
+            <li class="menu-list__link">
+              <a href="#" class="menu-list__item">
+                <svg class="menu-list__svg">
                   <use
-                    class="div__svg"
+                    class="menu-list__icon"
                     href="./images/icons.svg#icon-logo5"
                     width="106"
                     height="60"
@@ -426,11 +426,11 @@
                 </svg>
               </a>
             </li>
-            <li class="link__li__foot link__logo6">
-              <a href="#" class="li__client__a">
-                <svg class="logo4">
+            <li class="menu-list__link ">
+              <a href="#" class="menu-list__item">
+                <svg class="menu-list__svg">
                   <use
-                    class="div__svg"
+                    class="menu-list__icon"
                     href="./images/icons.svg#icon-logo6"
                     width="106"
                     height="60"
@@ -495,20 +495,20 @@
           </div>
           <div>
             <h2 class="text__footer">підпишіться на розсилку</h2>
-            <div class="footer-batton">
-              <div class="footer-div__mail">E-mail</div>
+            <form class="footer-batton">          
+              <input type="email" placeholder="E-mail" list="mailList" class="footer-input__mail">
               <button type="button" class="button-footer__text" data-modal-open>
                 Підписатися
-                <svg class="svg-send">
+                <svg class="svg-send"  width="24"
+                height="24">
                   <use
                     class=""
                     href="./images/icons.svg#send"
-                    width="13"
-                    height="13"
+                  
                   ></use>
                 </svg>
-              </button>
-            </div>
+              </button>                  
+          </form>
           </div>
         </div>
         <address class="addres__footer">
@@ -538,7 +538,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close>
-          <svg class="close-icon" width="18" height="18">
+          <svg class="close-icon" width="11" height="11">
             <use href="./images/icons.svg#close-btn"></use>
           </svg>
         </button>
@@ -556,7 +556,7 @@
               required
               id="input-name"
             />
-            <svg class="field-icon" width="12" height="12">
+            <svg class="field-icon " width="12" height="12">
               <use href="./images/icons.svg#man"></use>
             </svg>
           </div>
@@ -586,7 +586,7 @@
               required
               id="input-email"
             />
-            <svg class="field-icon" width="18" height="18">
+            <svg class="field-icon" width="15" height="12">
               <use href="./images/icons.svg#email"></use>
             </svg>
           </div>
@@ -608,7 +608,7 @@
             />
 
             <span class="privacy-wrapp">
-              <svg class="privacy-icon" width="16" height="15">
+              <svg class="privacy-icon" width="11" height="8">
                 <use href="./images/icons.svg#check"></use>
               </svg>
             </span>
