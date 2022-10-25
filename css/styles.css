@@ -331,14 +331,14 @@ a.logo.active.logo-activ
 }
 
 
-.widget {
+.portfolio-list__widget {
        font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
         color: var(--main-to-color);
            
 }
-.aside {
+.portfolio-list__aside {
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -351,7 +351,7 @@ a.logo.active.logo-activ
     display: inline-block;
 }
 
-.list { 
+.portfolio-list { 
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
@@ -362,7 +362,7 @@ a.logo.active.logo-activ
 
     }
 
-.items, .list {
+.items, .portfolio-list {
     margin-bottom: 66px; 
 }
 
@@ -580,7 +580,7 @@ margin-top: -44px;
     fill:var(--main-sir-color);
   
 }
-.picture:hover {
+.portfolio-list__item:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 
@@ -669,7 +669,7 @@ margin-top: -44px;
 }
 
 
-.picture-img-wrap:hover .box_portfol_img{
+.portfolio-list__img-wrap:hover .box_portfol_img{
     transform: translatex(0);
   }
   
@@ -687,7 +687,7 @@ margin-top: -44px;
   }
   
 
-.picture-img-wrap {
+.portfolio-list__img-wrap {
     width: 370px;
     height: 294px;
     position: relative;
